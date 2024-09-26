@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222425; /* Match the background color of the login button */
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.login-form-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #444; /* Darker border */
+  border-radius: 5px;
+  background-color: #333; /* Dark background */
+}
+
+.login-form-container h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Lighter text color */
+}
+
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container label {
+  margin-bottom: 10px; /* Lighter text color */
+}
+
+.login-form-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  background-color: #444; /* Darker background */ /* Lighter text color */
+}
+
+.login-button, .register-button {
+  padding: 15px;
+  background-color: #007bff; /* Match the background color */
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Ensure buttons take the full width */
+  margin-bottom: 10px; /* Space between buttons */
+  border: none; /* Remove default border */
+}
+
+.login-button:hover, .register-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center; /* Center align the error message */
+}

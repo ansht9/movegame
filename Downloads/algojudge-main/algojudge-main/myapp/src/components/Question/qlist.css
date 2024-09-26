@@ -1,0 +1,82 @@
+.q-list-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+}
+
+.q-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f7f7f7;
+}
+
+.q-list {
+    width: 100%; 
+}
+
+.q-item {   
+    background-color: #f7f7f7;
+    border: 5px solid #232020;
+    border-radius: 5px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    width: 90%; /* Adjust width to a percentage of the container's width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto; /* Center the item */
+}
+
+.q-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.q-info {
+    margin-bottom: 10px;
+}
+
+.q-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.q-code {
+    font-size: 14px;
+    color: #666;
+}
+
+.q-link {
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.q-link:hover {
+    background-color: #0056b3;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
